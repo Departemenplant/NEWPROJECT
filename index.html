@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Input & Data Tabel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Formulir Input Data</h1>
+  <form id="form">
+    <input type="text" id="nama" placeholder="Nama" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="pesan" placeholder="Pesan" required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <h2>Data dari Spreadsheet</h2>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Pesan</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
